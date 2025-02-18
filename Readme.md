@@ -164,6 +164,8 @@ WARNING: There are "resources" sections in the chart not set. Using "resourcesPr
 ### Run a kafka client and, use kafka producer and consumer to test as described above.
 
 
+## Screenshot in Docx file (Npci.docx)
+
 # Other Installations
 
 I also installed rancher UI to deploy and manage resources.
@@ -256,7 +258,7 @@ bootStrapAllTheThings
 
 # Encountered Issues:
 
-### 1. Using default CNI canal, I had issue with coredns name resolution.
+### 1. Issue with coredns name resolution.
 For some reason, my pods were not able to resolve dns. Due to this, there were some intermittent issues with EBS provisioning and other pods provisioning which required EC2 metadata.
 
 There were some github issue around this issue and I got stuck into one direction only.
